@@ -1,0 +1,74 @@
+@media (max-width: 626px) {
+  .lblMuniDigital {
+    font-size: 15px !important;
+    padding-left: 0px !important;
+    text-align: center !important;
+  }
+
+  .lblDigitalizacion {
+    font-size: 12px !important;
+  }
+
+  .lblBienvenido {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+
+  .btnSalir {
+    width: 100% !important;
+  }
+
+  .btnesRIGHT {
+    display: block !important;
+  }
+
+  .footer {
+    padding: 20px !important;
+    font-size: 10px !important;
+    height: auto !important;
+  }
+
+  .footer-copyright {
+    margin-top: 0px !important;
+  }
+
+  .logoLoginResponsive {
+    display: block !important;
+  }
+
+  .logoLogin {
+    display: none !important;
+  }
+
+  .TituloLogin {
+    display: none !important;
+  }
+
+  .TituloLoginResponsive {
+    margin-top: 15px !important;
+    display: block !important;
+    font-size: 15px !important;
+    color: red !important;
+    text-align: center !important;
+    padding: 5px !important;
+    color: #0b3857 !important;
+    font-weight: bold !important;
+  }
+
+  .LoginMuniDigital {
+    margin-top: 200px !important;
+  }
+
+  .LoginMuniDigital form {
+    /* border: solid 1px red !important; */
+    width: 100% !important;
+    margin: 0px !important;
+    background: transparent !important;
+    padding: 0px !important;
+  }
+
+  .inputLogin {
+    padding: 6px !important;
+  }
+}

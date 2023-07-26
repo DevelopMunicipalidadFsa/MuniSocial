@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background: #ebebeb !important;
+
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  /* font-size: 13px !important; */
+}
+
+
+.buscar {
+  position: fixed !important;
+  padding: 5px !important;
+  z-index: 99;
+  bottom: 75px;
+  right: 40px;
+}
+
+.buscar input {
+  width: 0px;
+  height: 40px;
+  border-radius: 20px;
+  border: none !important;
+  padding: 5px 10px !important;
+  outline: none !important;
+  margin-right: 5px !important;
+  transition: ease all .5s;
+  border: solid 1px #a7a7a7 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  /* box-shadow: 2px 2px 2px #414141 !important; */
+}
+
+.botonBuscar {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  line-height: 50px;
+  bottom: -15px;
+  right: -15px;
+  background: #0B610B;
+  text-align: center;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  color: white !important;
+  border: none !important;
+  font-size: 20px !important;
+  text-shadow: 2px 2px 2px #414141 !important;
+  /* box-shadow: 2px 2px 2px #414141 !important; */
+}
+
+.buscar:hover input{
+  width: 300px !important;
+}
+
+.btnAprobarSolicitud{
+  border: none !important;
+  background: #249959;
+  padding: 15px !important;
+  color: white !important;
+  border-radius: 3px;
+  /* border: solid 2px black !important; */
+  width: 100% !important;
+  font-weight: bold !important;
+}
+
+.btnAprobarSolicitud:hover{
+  background: #218c51;
+}
+
+.btnRechazarSolicitud{
+  border: none !important;
+  background: #a50d0d;
+  padding: 15px !important;
+  color: white !important;
+  border-radius: 3px;
+  /* border: solid 2px black !important; */
+  width: 100% !important;
+  font-weight: bold !important;
+}
+
+.btnRechazarSolicitud:hover{
+  background: #c23c3c;
+}
+
+    .ContenedorBuscador {
+        position: fixed !important;
+        padding: 5px !important;
+        z-index: 99;
+        bottom: 75px;
+        right: 30px;
+    }
+
+
+    .inputBusqueda {
+        background: transparent;
+        transition: all .5s;
+        border: none !important;
+        width: 50px;
+        height: 50px;
+        position: absolute !important;
+        right: 0px;
+        top: -25px;
+        z-index: 1000;
+    }
+
+    .inputBusqueda:focus {
+        background-color: #fff;
+        box-shadow: none !important;
+        color: #333;
+        border-radius: 5px;
+        border: solid 1px #333 !important;
+        padding: 5px 10px !important;
+        margin-right: 5px !important;
+        position: absolute;
+        box-shadow: 0px 0px 5px #555 !important;
+        right: 35px;
+        width: 270px;
+    }
+
+    .inputBusqueda:focus+.botonBuscar {
+        transition: ease all .3s;
+        background: white !important;
+        color: green !important;
+        border: solid 1px green !important;
+        text-shadow: none !important;
+        box-shadow: 0px 0px 5px #555 !important;
+    }
+
+    .botonBuscar:focus{
+        outline: none !important;
+    }
+    .mensajeArchivos{
+    text-align: center;
+    margin-top: 45% !important;
+    width: 90%;
+    border-radius: 5px !important;
+    /* background: linear-gradient(to bottom, #f8f8f8, #d0d0d0); */
+    /* background: linear-gradient(to top, #eb5e5e, #f79090); */
+    padding: 5px !important;
+    /* box-shadow: 0px 0px 10px rgb(199, 199, 199) !important; */
+}
+
+.mensajeArchivos h5{
+    margin-top: 10px !important;
+    font-weight: bold !important;
+    color: #999;
+}
+
+.mensajeArchivos h1{
+    color: #999 !important;
+    font-size: 100px !important;
+}

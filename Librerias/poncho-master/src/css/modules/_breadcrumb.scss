@@ -1,0 +1,50 @@
+.breadcrumb {
+  background: transparent;
+  border: 0;
+  margin: 16px 0 0;
+  padding: 0;
+  text-transform: none;
+
+  li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  a {
+    color: $brand-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &>li+li:before,
+  &>.active {
+    color: $gray;
+  }
+}
+
+.jumbotron .breadcrumb a { 
+	color:$white; 
+	text-decoration: none;
+}
+
+.jumbotron .breadcrumb > .active, .jumbotron .breadcrumb > li + li:before { 
+	 color: #fff
+}	
+
+.section-actions {
+  margin: 16px 0 24px;
+}
+
+.jumbotron_bar {
+
+  .breadcrumb {
+
+    &>li+li:before,
+    &>.active {
+      color: $gray-border;
+    }
+  }
+}
